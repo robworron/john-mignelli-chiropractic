@@ -36,10 +36,18 @@ export default function HeroSection() {
             community.
           </p>
           <div className="flex gap-4">
-            <Link href="/about" className={BUTTON_STYLES}>
+            <Link
+              aria-label="Learn more about Dr. John Mignelli"
+              href="/about"
+              className={BUTTON_STYLES}
+            >
               Read More
             </Link>
-            <Link href="/contact" className={BUTTON_STYLES}>
+            <Link
+              aria-label="Book an appointment with Dr. John Mignelli"
+              href="/contact"
+              className={BUTTON_STYLES}
+            >
               Book Now
             </Link>
           </div>

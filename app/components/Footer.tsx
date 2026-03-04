@@ -80,10 +80,9 @@ export default function Footer() {
       </div>
       <hr className="w-1/4 bg-[var(--foreground)] my-4" />
       <div className="flex flex-col justify-center items-center w-full">
-        <h5>Website Designed and Developed By</h5>
-        <h5>Rob Worron</h5>
+        Website Designed and Developed By Rob Worron
       </div>
-      <p className="text-sm">rworron94@gmail.com</p>
+      <div className="text-sm">rworron94@gmail.com</div>
       <a
         href="https://www.robworron.ca/"
         rel="noopener noreferrer"

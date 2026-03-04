@@ -54,6 +54,10 @@ This website has been designed and built for Dr. John Mignelli to give him an on
 - Tailwind is a popular CSS framework which allows for rapid styling of HTML elements
 - Hosting is handled through Vercel - its integration with Next.js makes deployment easy
 
+## Challenges and Solutions
+
+The client wanted SEO optimization alongside Google Reviews on the landing page. Google restricts access to the Google Business Profile API, making it difficult to fetch reviews directly. This required me to use a third-party widget, Elfsight, to display my client’s reviews as requested. Using the widget slightly impacted Google Lighthouse’s Best Practices and SEO scores due to third-party cookies. After consulting with the client, he agreed to keep the widget on the website despite the minor hit to performance metrics.
+
 ## What I Learned
 
 - High resolution images that were provided hamstrung load times and lowered Lighthouse performance scores. I learned the importance of managing image sizes via Next.js Image component and compressing those images to lower the time for the LCP to help increase performance
