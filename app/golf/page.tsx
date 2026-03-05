@@ -87,7 +87,7 @@ export default function GolfPage() {
             </div>
             <div className="z-20 absolute top-20 right-0 translate-x-1/2 w-72 h-72">
               <Image
-                src="/assets/titleist.png"
+                src="/assets/titleist.webp"
                 alt="Titleist Image"
                 fill
                 className="object-fit brightness-60"

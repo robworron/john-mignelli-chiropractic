@@ -63,3 +63,17 @@ The client wanted SEO optimization alongside Google Reviews on the landing page.
 - High resolution images that were provided hamstrung load times and lowered Lighthouse performance scores. I learned the importance of managing image sizes via Next.js Image component and compressing those images to lower the time for the LCP to help increase performance
 - The importance of semantic structure and ARIA attributes for accessibility
 - Furthered my understanding of Tailwind styling conventions, file structure, routing, and utilizing Vercel's dashboard to aid with deployment
+
+## Screenshots
+
+### Home Page
+
+<img src="screenshots/home.png" width="900">
+
+### Contact Page
+
+<img src="screenshots/contact.png" width="900">
+
+### Golf Injuries and Fitness Page
+
+<img src="screenshots/golf.png" width="900">
